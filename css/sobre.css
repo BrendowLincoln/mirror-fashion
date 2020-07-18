@@ -4,21 +4,69 @@ html {
 
 body {
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     width: 940px;
 }
 
-h1 {
-    background-image: url("../img/sobre-background.jpg");
+/*CSS menu topo*/
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
+    margin-bottom: 25px;
 }
+
+.logo {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.menu-opcoes a {
+    color: #003366;
+
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*Conteúdo*/
 
 h2  {
     border-bottom: 2px solid #333333;
+    margin-top: 30px;
 }
 
-figure {
+.img-complementares {
     background-color: #F2EDED;
     border: 1px solid #ccc;
     text-align: center;
@@ -28,17 +76,18 @@ figcaption {
     font-style: italic;
 }
 
-h1 {
+#titulo-principal {
     padding: 10px;
+    background-image: url("../img/sobre-background.jpg");
+    font-size: 32px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-h2 {
-    margin-top: 30px;
-}
-
-p {
+.paragrafo {
     padding: 0 45px;
     text-indent: 15px;
+    text-align: justify;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 figure {
@@ -72,3 +121,5 @@ figcaption {
     float: right;
     margin: 0 00px 10px 10px;
 }
+
+
